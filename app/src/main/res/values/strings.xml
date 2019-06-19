@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">OTP - Demo</string>
+    <string name="wallet_sl">Wallet</string>
+    <string name="total_assets">Total Assets</string>
+    <string name="taka_sign">৳</string>
+    <string name="total_due">Total Due</string>
+    <string name="total_receivable">Total Receivable</string>
+    <string name="cash_out">Cash Out</string>
+    <string name="cash_in">Cash In</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="today">Today</string>
+    <string name="this_week">This Week</string>
+    <string name="this_month">This Month</string>
+    <string name="last_month">Last Month</string>
+    <string name="this_year">This Year</string>
+    <string name="last_year">Last Year</string>
+    <string name="enter_received_code">Enter Received Code</string>
+    <string name="verify">Verify</string>
+    <string name="otp">OTP</string>
+    <string name="contact_number">Contact Number</string>
+</resources>

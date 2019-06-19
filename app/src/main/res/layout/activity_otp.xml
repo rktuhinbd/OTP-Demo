@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/enter_received_code"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/xxxxlargetext" />
+
+    <com.goodiebag.pinview.Pinview
+        android:id="@+id/pinview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:cursorVisible="false"
+        app:forceKeyboard="false"
+        app:inputType="number"
+        app:password="false"
+        app:pinBackground="@null"
+        app:pinHeight="42dp"
+        app:pinLength="6"
+        app:pinWidth="42dp" />
+
+</LinearLayout>
