@@ -15,11 +15,11 @@ public class RetrofitClient {
     private static RetrofitClient mInstance;
     private Retrofit retrofit;
 
-    Gson gson = new GsonBuilder()
-            .setLenient()
-            .create();
-
     private RetrofitClient() {
+        Gson gson = new GsonBuilder()
+                .setLenient()
+                .create();
+
         retrofit = new Retrofit.Builder()
                 .baseUrl(post_url)
                 .addConverterFactory(GsonConverterFactory.create(gson))
